@@ -91,10 +91,9 @@ a=['a','e','i','d','o','u']
 vowels=list(filter(lambda i: i in 'aeiouAEIOU',a))
 print(vowels)'''
 
-# reduce 
-'''
+# reduce
+'''''
 from functools import reduce
-
 l=[2,3,4,5,6,7,8,89]
 sumofl = reduce(lambda sum,i:sum+i,l)
 
